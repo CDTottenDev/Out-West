@@ -1,0 +1,22 @@
+{
+  "name": "vue-express-template",
+  "version": "1.0.0",
+  "description": "Full stack template with Vue 3 and Express.js",
+  "scripts": {
+    "install:all": "npm run install:client && npm run install:server",
+    "install:client": "cd client && npm install",
+    "install:server": "cd server && npm install",
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start"
+  },
+  "keywords": [
+    "vue",
+    "express",
+    "fullstack",
+    "template"
+  ],
+  "author": "",
+  "license": "ISC"
+}
